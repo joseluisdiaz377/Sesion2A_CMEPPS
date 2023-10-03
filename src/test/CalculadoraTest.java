@@ -82,5 +82,15 @@ class CalculadoraTest {
 		
 		//fail("Not yet implemented");
 	}
+	
+	@Test
+	void testDivideCero() {
+		int expected = -1;
+		value2 = 0;
+		int actual = Calculadora.divide(value1, value2);
+		assertEquals(expected, actual);
+		
+		//fail("Not yet implemented");
+	}
 
 }
