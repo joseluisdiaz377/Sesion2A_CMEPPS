@@ -76,7 +76,7 @@ class CalculadoraTest {
 
 	@Test
 	void testDivide() {
-		int expected = 5/3;
+		int expected = 1;
 		int actual = Calculadora.divide(value1, value2);
 		assertEquals(expected, actual);
 		
